@@ -70,7 +70,7 @@ class Group {
   }
 
   showPerformance(): any {
-    const sortedStudents = this.students.toSorted(
+    const sortedStudents: any = this.students.toSorted(
       (a: any, b: any) => b.getPerformanceRating() - a.getPerformanceRating()
     );
 
